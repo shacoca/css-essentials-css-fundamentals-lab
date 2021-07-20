@@ -2,4 +2,45 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* justify-items: center; */
+}
+
+/* h1 {
+  align-self: center;
+} */
+
+header, section {
+  display: grid;
+  text-align: center;
+}
+
+/* body header, section {
+  text-align: center;
+} */
+
+nav a {
+  padding: 10px 10px;
+  background-color: aqua;
+}
+
+figcaption {
+  font-size: 0.7rem;
+  /* justify-tracks: center; */
+}
+
+section#featured-property p {
+  justify-self: center;
+  width: 800px;
+}
+
+section#details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: lightgray;
+}
+
+section#details div {
+  justify-content: center;
 }
